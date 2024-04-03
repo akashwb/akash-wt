@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>akash-Wt</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img1.jpg" type="image/x-icon">
+</head>
+<body>
+
+<div class="slideshow-container" >
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img2.png" style="height: 300px; width:100%;">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img14.jpg" style="height: 300px; width:100%;">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img15.webp" style="height: 300px; width:100%;">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center" class="dotdiv">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<div class="open"style="cursor: pointer; font-size: 30px;"
+onclick="opennavbar()"><center>&#9776;</center></div>
+<div class="sidenav" id="mysidenav">
+<a href="javascript:void(0)" class="button"
+    onclick="closenav()">&times;</a>
+<a href="#">about</a>
+<a href="#">about</a>   
+ <a href="#">about</a>
+ <a href="#">about</a>
+ <a href="#">about</a>
+ <a href="#">about</a>
+ <a href="#">about</a>
+ <a href="#">about</a>
+</div>
+
+</div>
+<script>
+function opennavbar(){
+  console.log('hiii')
+    document.getElementById('mysidenav').style.width = "300px";
+    document.getElementById('mysidenav').style.zIndex='2';
+}
+function closenav(){
+    document.getElementById('mysidenav').style.width = "0px";
+}
+</script>
+<div class="open1"style="cursor: pointer; font-size: 30px;"
+onclick="opensearchnav()"><center>&#9776;</center></div>
+<div class="topsearchnav" id="myserchnav">
+<a href="javascript:void(0)" class="btn" onclick="closesearchnav()">&times;</a>
+<!-- <a href="#">about</a>
+<a href="#">about</a>   
+<a href="#">about</a>
+<a href="#">about</a>
+<a href="#">about</a>
+<a href="#">about</a>
+<a href="#">about</a>
+<a href="#">about</a> -->
+</div>
+
+<script>
+function opensearchnav(){
+  console.log("bye");
+  document.getElementById('myserchnav').style.width = "300px";
+  document.getElementById('myserchnav').style.zIndex='2';
+  document.getElementById('myserchnav').style.background = "red";
+}
+function closesearchnav(){
+    document.getElementById('myserchnav').style.width = "0px";
+}
+</script>
+<div class="background">
+<h3 style="position: relative; left: 50px;bottom: 25px;">Discover our trip Planner</h3>
+<img src="img7.jpg" alt="img" width="400px" height="250px" style="position: relative;left: 100px;top: 20px; border-radius: 10px;">
+<div class="trip">
+
+ <h3 style="position: relative; top: 20px; left: 10px;color: white;text-decoration: underline;"><strong>Hawaiian Culture
+</strong></h3><br><br>
+
+<small style="position: relative;left: 10px;font-size: 12px;color: white;"><strong> Hawaiian culture is an ancient blend of <br>
+ethnic influences and unique tradition.<br>Part of what makes the islands of Hawaii so <br>
+special is the culture, a big drawcard to <br> </strong></small>
+
+<div class="btn1"><a href="https://en.wikipedia.org/wiki/Maldives">Learn more</a></div>
+</div>
+     </div>
+
+<hr class="h1">
+
+<div class="background1">
+<h3 style="position: relative; left: 50px;bottom: 25px;">Choose the location...</h3>
+
+
+<img src="img6.webp" alt="img" width="400px" height="250px" style="position: relative;left: 490px;top: 50px;border-radius: 10px; ">
+<div class="trip1">
+
+ <h3 style="position: relative; top: 20px; left: 10px;color:white;"><strong>The Maldives</strong></h3><br><br>
+<small style="position: relative;left: 10px;color: white;"></small><strong>The Maldives is southwest of Sri Lanka and India,<br> about 750 kilometres (470 miles;<br> 400 nautical miles) from the Asian <br>continent's mainland. The Maldives' chain . </strong></small>
+<div class="btn" style="color: white;"><a href="https://travelonline.com/hawaii/culture">Learn more</a></div>
+</div>
+</div>
+<hr >
+<div class="background2">
+
+<img src="img6.webp" alt="img" width="400px" height="250px" style="position: relative;left: 490px;top: 50px;border-radius: 10px; ">
+<div class="trip2">
+
+ <h3 style="position: relative; top: 20px; left: 10px;color:white;"><strong>The Maldives</strong></h3><br><br>
+<small style="position: relative;left: 10px;color: white;"><strong>The Maldives is southwest of Sri Lanka and India,<br> about 750 kilometres (470 miles;<br> 400 nautical miles) from the Asian <br>continent's mainland. The Maldives' chain . </strong></small>
+<div class="btn" style="color: white;"><a href="https://travelonline.com/hawaii/culture">Leaern more</a></div>
+</div>
+</div>
+<div class="a">
+<h3 style="color: white;position: relative;left: 30px; top: 50px;">Live the full Visit Saudi experience</h3>
+</div>
+<img src="mobile.webp" alt="img" style="position: relative; left: 580px; bottom: 650px;">
+<div class="b"></div>
+<h1 style="position: relative;bottom: 850px;">Get inspired to plan your trip</h1>
+
+<div style="display: flex;">
+<div class="imgdiv">
+<div><img src="img14.jpg" alt="swefgqa4trwthr" width="200px" height="100px" style="border-radius: 10px;position: relative;top: 2px;left: 5px;" >
+<h5 style="position: relative;top: 20px;left: 30px;">experience & tour</h5>
+<hr style="position: relative;top: 45px;right: 20px; width:180px;left: 10px;">
+<a href="#" style="position: relative;left: 40px;top: 60px;color: #78006e;">Learn more</a>
+</div>
+</div>
+
+<div class="imgdiv">
+<div><img src="img19.jpg" alt="swefgqa4trwthr" width="200px" height="100px" style="border-radius: 10px;position: relative;top: 2px;left: 5px;" >
+<h5 style="position: relative;top: 20px;left: 30px;">experience & tour</h5>
+<hr style="position: relative;top: 45px;right: 20px;width:180px;left: 10px;">
+<a href="#" style="position: relative;left: 40px;top: 60px;color: #78006e;">Learn more</a>
+</div>
+</div>
+
+<div class="imgdiv">
+<div><img src="img21.jpg" alt="swefgqa4trwthr" width="200px" height="100px" style="border-radius: 10px;position: relative;top: 2px;left: 5px;" >
+<h5 style="position: relative;top: 20px;left: 30px;">experience & tour</h5>
+<hr style="position: relative;top: 45px;right: 20px;width:180px;left: 10px;">
+<a href="#" style="position: relative;left: 40px;top: 60px;color: #78006e;">Learn more</a>
+</div>
+</div>
+
+<div class="imgdiv">
+<div><img src="img20.jpg" alt="swefgqa4trwthr" width="200px" height="100px" style="border-radius: 10px;position: relative;top: 2px;left: 5px;" >
+<h5 style="position: relative;top: 20px;left: 30px;">experience & tour</h5>
+<hr style="position: relative;top: 45px;right: 20px;width:180px;left: 10px;">
+<a href="#" style="position: relative;left: 40px;top: 60px;color: #78006e;">Learn more</a>
+</div>
+</div>
+</div>
+
+<div class="c">
+  <img src="img22.jpg" width="405px" height="155px" style="border-radius: 10px;position: relative;top: 2px;left: 2px;">
+  <span>
+    
+    <h1 id="text" style="font-size: 20px; display: inline;color: white;position: relative;left: 20px;">Apply For Your eVisa Today</h1><br>
+    <label for="speed" style="position: relative;left: 500px;bottom: 30px;color: white;"><b>Speed -</b></label>
+    <input type="number" name="speed" id="speed" value="1" min="1" max="10" step="1" style="position: relative; left:500px;bottom: 30px;">
+    
+
+  </span>
+</div>
+<div class="d">
+  <div class="w">
+  <p>Business</p><br>
+  <p>Technology</p><br>
+  <p>Steel</p><br>
+  <p>Automotive</p><br>
+  <p>Consumer & Retail</p>
+  <p>Infrastructure</p><br>
+  <p>Financial Services</p><br>
+  <p>Aerospace & Defence</p><br>
+  <p>Tourism & Travel</p><br>
+  <p>Telecom & Media</p><br>
+  <p>Trading & Investment</p><br>
+  <p>Browse our brands</p><br>
+</div>
+<div class="x">
+  <p>Business</p><br>
+  <p>Technology</p><br>
+  <p>Steel</p><br>
+  <p>Automotive</p><br>
+  <p>Consumer & Retail</p>
+  <p>Infrastructure</p><br>
+  <p>Financial Services</p><br>
+  <p>Aerospace & Defence</p><br>
+  <p>Tourism & Travel</p><br>
+  <p>Telecom & Media</p><br>
+  <p>Trading & Investment</p><br>
+  <p>Browse our brands</p><br>
+</div>
+<div class="y">
+  <p>Business</p><br>
+  <p>Technology</p><br>
+  <p>Steel</p><br>
+  <p>Automotive</p><br>
+  <p>Consumer & Retail</p>
+  <p>Infrastructure</p><br>
+  <p>Financial Services</p><br>
+  <p>Aerospace & Defence</p><br>
+  <p>Tourism & Travel</p><br>
+  <p>Telecom & Media</p><br>
+  <p>Trading & Investment</p><br>
+  <p>Browse our brands</p><br>
+</div>
+<div class="z">
+  <p>Business</p><br>
+  <p>Technology</p><br>
+  <p>Steel</p><br>
+  <p>Automotive</p><br>
+  <p>Consumer & Retail</p>
+  <p>Infrastructure</p><br>
+  <p>Financial Services</p><br>
+  <p>Aerospace & Defence</p><br>
+  <p>Tourism & Travel</p><br>
+  <p>Telecom & Media</p><br>
+  <p>Trading & Investment</p><br>
+  <p>Browse our brands</p><br>
+</div>
+
+
+</div>
+<script src="js.js"></script>
+</body>
+</html>
